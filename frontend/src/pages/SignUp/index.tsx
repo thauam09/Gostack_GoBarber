@@ -10,9 +10,7 @@ import Button from '../../components/Button';
 import { Container, Content, Background } from './styles';
 
 const SignUp: React.FC = () => {
-  function handleSubmit(data: object): void {
-    return;
-  }
+  function handleSubmit(data: object): void {}
 
   return (
     <Container>
