@@ -20,6 +20,15 @@
   },
   "plugins": ["react", "react-hooks", "@typescript-eslint"],
   "rules": {
+    "@typescript-eslint/ban-types": [
+      "error",
+      {
+        "types": {
+          "object": false
+        },
+        "extendDefaults": true
+      }
+    ],
     "react/jsx-props-no-spreading": "off",
     "react/prop-types": "off",
     "react/jsx-indent": ["error", 2],
