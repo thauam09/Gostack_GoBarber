@@ -1,7 +1,7 @@
 {
   "name": "first_node_project",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.ts",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
