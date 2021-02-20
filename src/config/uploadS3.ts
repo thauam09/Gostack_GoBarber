@@ -15,4 +15,7 @@ export default {
       return callback(null, fileName);
     },
   }),
+  limits: {
+    fileSize: 2 * 1024 * 1024,
+  },
 };
