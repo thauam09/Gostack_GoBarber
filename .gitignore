@@ -8,5 +8,6 @@ tmp/*
 !tmp/.gitkeep
 
 vercel.json
-
+Insomnia_routes.json
 .vercel
+.env
